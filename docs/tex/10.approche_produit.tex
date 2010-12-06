@@ -1,0 +1,166 @@
+\part{Approche Produit : « Modélisation de la qualité d’un produit logiciel »}
+
+\section{Introduction}
+
+La qualité peut être vue de deux manière :
+\begin{itemize}
+\item Par une \textbf{approche produit} : la qualité est une propriété intrinsèque du produit logiciel
+\item Par une \textbf{approche processus} : la qualité a pour objectif de contrôler la manière et le cadre 	dans lequel le logiciel est développé : cela a pour conséquence de produire un logiciel de meilleur qualité.
+\end{itemize}
+
+À la base on peut agir sur deux facteurs : les exigences non fonctionnelles (contraintes sur le développement), qui vont déterminer la fiabilité, la maintenabilité, l'efficacité, mais aussi sur les exigences fonctionnelles : qualité de l'analyse, choix de conception... Ce dernier facteur va déterminer la complétude, la clarté, et la cohérence du produit logiciel.
+
+La modélisation de la qualité se fait de deux points de vue : (Approche de McCall)
+Qualité externe : du point de vue du client – Le produit est conforme à ses attentes.
+Qualité interne : du point  de vue du concepteur – La conception et la réalisation s'est fait dans le respect des exigences fonctionnelles et non fonctionnelles et développées dans des condition économiques acceptables.
+
+Souvent, une bonne qualité interne amène une bonne qualité externe : si le produit est bien conçu et respecte les exigences du client, alors le produit va être conforme aux attentes du client. Des mesures et des contrôles sont utilisée pour mesurer l'écart entre les exigences client (fonc. et non fonc.). Une négociation entre les différentes partis (MOA, MOE) est envisagée si les contrôles et les mesures ne sont pas satisfaisante, donc si la qualité interne est trop basse, donc que la qualité externe fait défaut.
+
+Cette approche permet :
+En début de projet, de définir 	une politique de qualité
+Par la suite, d'évaluer le niveau de qualité atteint
+
+
+Concept d'arbre de qualité. Il doit souvent être personnalisé pour être efficace. Cela se fait en fonction du type de produit, et du métier de l’entreprise.
+
+
+
+	 	 	 	
+
+2e partie : 1er niveau de décomposition : Les facteurs
+
+	 	 	 	
+Pyramide de décomposition des niveaux de qualité :
+
+
+Les usages du logiciels doivent être rassemblés selon 3 groupes :
+Le fonctionnement : vue de l'utilisateur	
+Conformité – besoin clients
+Fiabilité – rendu du service souhaité avec la précision requise
+Efficacité
+Intégrité – Protection des données contre les attaques
+Facilité d'emploi
+La transposition (portabilité, 	réutilisation, couplabilité...)
+Portabilité : pouvoir changer le logiciel d'environnement matériel ou logiciel facilement
+Réutilisation : pouvoir	réutiliser du code pour un autre logiciel
+Couplabilité : pouvoir mettre ce logiciel en communication avec d'autre logiciels.
+L'évolution
+Maintenabilité : dépannage facile.
+Flexibilité : capacité à 	évoluer facilement
+Testabilité : capacité à pouvoir facilement tester le logiciel.
+
+	 	 	 	
+Certains facteurs sont en opposition (par exemple, si l'on veut un logiciel plus efficace, bien souvent, le code est plus compliqué, et donc la maintenabilité en prend un coup).
+
+En général, on classe le niveau d'exigence de A à D, avec D le plus faible et A le plus critique, et selon des domaines d'application (sûreté, économie, sécurité, environnement).
+Exemple : Niveau d'exigence B 
+Sureté	
+Attente à la vie des personnes
+Economie
+Perte économiques
+Sécurité
+Service et informations critiques
+Environnement
+Nuisance de l'environnement récupérable
+
+
+Pour déterminer le niveau d'exigence, on utilise un processus en trois étapes :
+On formule les besoins : première liste de facteurs. Puis on prend les plus importants, et on leurs associe un niveau d'exigence (de priorité). Enfin, on choisi les principales disposition d'assurance qualité et de contrôle qualité, selon les bonnes pratiques.
+Cela débouche sur le Plan d'assurance qualité logiciel (PAQL).
+
+Cela se fait avec le client, et devient en fait les clauses qualité dans le contrat. On a des facteurs, donc on se réfère au cours d'Aide à la Décision, pour faire le choix (en général, Aubry dit d'utiliser une moyenne pondérée, ou de regarder les contradictions entre les facteurs).
+Deuxième partie : 2e niveau de décomposition : les critères
+
+Il y a 23 propriétés d'un logiciel, pour lesquelles le génie logiciel et l'assurance qualité offrent un moyen de contrôle.
+Fonctionnement
+Facilité d'emploi	
+Facilité d'apprentissage : le logiciel est simple à prendre en main pour un nouvel utilisateur (aide en ligne)		
+Facilité d'utilisation : le logiciel précise clairement comment il doit être utilisé (et a de la doc).
+Communicabilité : le logiciel a une IHM pratique, aisée à comprendre (norme d'interface, étude d'ergonomie).
+Intégrité
+Contrôle des accès : On peut restreindre certaines 	fonctionnalité à certains types d'utilisateurs.			
+Vérification des accès : on peut suivre l'accès aux données (date de dernière modif, etc.).
+Efficacité
+Efficacité de stockage : le logiciel utilise le minimum de mémoire pour son exécution			
+Efficacité d'exécution : Le logiciel utilise un minimum de temps machine pour son exécution.
+Conformité
+Traçabilité : On peut tracer les modifications dans les données dans tout le logiciel.		
+Complétude : Le logiciel remplit la totalité des fonctions pour lequel il a été conçu.
+Fiabilité
+Précision : précision exigée dans le calcul (demande de vérification par un expert, analyse numérique).
+Tolérance aux erreurs : Le logiciel peut continuer à fonctionner après une erreur (traitement des exceptions, etc.)
+Homogénéité : Vocabulaire uniforme, etc., dans le but d'augmenter la prédictabilité (au niveau documentation, interface, etc.).
+Simplicité : les choix de réalisation sont faciles à comprendre.
+Concision : Il n'y a pas trop de code inutilement présent, trop de blabla dans les docs, etc.
+Évolution
+Maintenabilité		
+Auto-description : le logiciel décrit son propre fonctionnement.		
+Modularité : on peut interchanger des blocs logiciels, ça fonctionne toujours.
+Extensibilité : on peut ajouter de fonctionnalités facilement, redimensionner la capacité de stockage, etc.
+Testabilité
+Instrumentation : On peut mesurer les temps d'exécution, les erreurs survenues, etc.		
+Flexibilité
+Indépendance matérielle : on peut faire tourner le logiciel sur un grand nombre de matériel différents.	
+Transposition
+Réutilisabilité	
+Généralité : Capacité à conserver le code en ajoutant plein de fonctionnalité, à rester ouvert au changement.	
+Portabilité	
+Indépendance matérielle, logicielle : pas trop de indépendance à des bibliothèques externes, à un système d'exploitation.
+Couplabilité
+Standardisation des communications : Utilisation de 	 protocoles standards (HTTP, DBUS, CORBA, etc.).
+Standardisation des données : Utilisation de standards normalisés pour le stockage des données (SQL, XML, YML, STL, etc.).
+
+
+Troisième partie : 3e niveau de décomposition : les métriques
+
+Les métriques et indicateurs servent à mettre des chiffres derrière les critères, car « Sans mesure, pas de contrôle, sans contrôle, pas de qualité ».
+On utilise donc souvent une approche dite quantitative pour ce contrôler l’état du projet par rapport à ces objectifs. 
+On a donc quatre objectifs principaux pour la qualité :
+Évaluer le niveau de qualité atteint
+Répartir l’effort de test
+Estimer l’effort de maintenance et de difficulté d’un transfert
+Détecter les séquences à haut risque
+
+
+Trois grandes approches de l’approche quantitative :
+L’analyse statique : sans lancer le programme (détection de fautes de styles, comptage des commentaires, graphes d’appel, complexité cyclomatique,en gros ce que fait Kalistik). Exemple de métrique : nombre d’arc du graphe d’appel, nombre de noeuds, nombre de niveau, complexité hierarchique (nombre de composants / nombre de niveaux).
+L’analyse dynamique : pendant que le programme tourne (profiling du code, détection de fuites de mémoire, en gros, ce que fait Valgrind). On prend aussi en compte dans cette approche l’analyse de modèle de fiabilité (mean time to failure, par exemple).
+L’analyse formelle : beaucoup plus de maths, calcul manuel de deadlines pour le temps réel, par exemple (beaucoup plus cher, et à réserver aux systèmes critiques).
+
+On peut faire trois types de mesures :
+Des mesures absolues
+Des mesures relatives
+Des mesures booléennes.
+
+On définit des bornes inférieures et supérieures à ne pas dépasser pour les mesures absolues et relatives.
+
+Quatre sources de mesures pour l’approche quantitative :
+Dossier de spécif, de conception préliminaire, etc.
+Jeux de tests
+Mesure de performances, d’exploitation
+Règles, normes de production
+
+
+On a exactement 11 facteurs, 23 critères, et 176 métriques au total, normalisées dans l’intervalle [0; 1], la plupart se calculant lors du codage et de la conception.
+
+Un autre élément à considérer : la couverture des tests.
+On définit les objets à tester, et on calcule le ratio nombre d’objets testés (et avec les tests qui passent) / nombre d’objets à tester. Quand on est à 1, on a atteint notre objectif.
+
+On teste tout en trois passes :
+Niveau mesure : comparaison à des valeurs seuils
+Niveau critères : classification du composant selon la valeur chiffrée, et selon une association mesure-critère qui a été définie et qui est propre à chaque critère et mesure.
+Bilan : Classification du composant selon l’ensemble des critères associés.
+
+
+On fait ensuite en graphe de Kiviat (spider chart : comme ci-dessous) :
+avec des seuil : valeur minimum acceptable, valeur maximum acceptable. Quand un composant respecte toutes les normes, alors le polygone qui lui est associé est à l’intérieur du polygone de référence.
+
+Il ne faut pas oublier qu’on est en démarche produit. On pourrait donc résumer l’approche retenue dans le schéma ci-dessous :
+
+
+Conclusion
+
+Les méthodes présentés sont assez vieilles, mais elle marchent. On doit cependant les remettre au goût du jour avec les nouvelles technologies (comme l’objet, qui a ses propres métriques).
+On peut avoir des nouveaux facteurs aussi, par exemple la disponibilité d’un serveur critique, la robustesse (on essaie de faire crasher le système, et on évalue sa capacité à tenir face aux attaques, voulues ou non).
+
+La qualité logicielle est modélisable, mesurable.
