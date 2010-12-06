@@ -1,0 +1,36 @@
+# Insert infos here:
+TITLE="RRA"
+
+AUTHOR="Des 4ifs"
+
+FILE="rra"
+
+LANG="francais"
+# For hyphenation and other language dependant stuff
+# Languages:english, usenglishmax, dumylang, nohyphenation, german-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galician, german, ngerman, monogreek, greek, hungarian, icelandic, indonesian, interlingua, irish, italian, kurmanji, latin, latvian, lithuanian, mongolian, mongolian2a, bokmal, nynorsk, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish, ukenglish, ukrainian, uppersorbian, welsh
+
+FONT="default"
+# Fonts (among others): kpfonts, utopia, charter, yfonts, venturis2
+# More info: 	the LaTeX font catalogue:
+# 		http://www.tug.dk/FontCatalogue/
+# default for default font.
+
+# Char encoding (utf-8/latin1)
+CENC="utf-8"
+
+# Document class (article, letter, report)
+DCLASS="article"
+
+# Width of footer/header rules
+FRULE=".3pt"
+HRULE=".3pt"
+
+# Different paths (shouldn't change much...)
+# Documents path
+DOCSPATH=./docs
+# Tex files
+TEXPATH=${DOCSPATH}/tex
+# Pictures files
+PIXPATH=${DOCSPATH}/pics
+# Source code files
+SRCPATH=${DOCSPATH}/src

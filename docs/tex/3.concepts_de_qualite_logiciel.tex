@@ -1,0 +1,153 @@
+\part{Chapitre 3 : Juju : Concepts de Qualité pour le Logiciel}
+
+\section{Concepts de base liés à la qualité du logiciel}
+
+	\subsection{Définition de la qualité}
+
+	\begin{description}
+    \item[Qualité des produits] Répondre aux réels besoins des utilisateurs (implicites et explicites) dans un contexte économique donnée (coûts, délais)
+    \tiem[Qualité des logiciels] Répondre aux objectifs d’utilisation, de maintenance, de portage etc... Réalisation dans les délais et les budgets prévus...
+    \item[Qwalité Of Servaillce (QoS)] Répondre aux attentes du client au niveau des perfs, des relations avec lui, réactivité en cas de pépin !
+	\end{description}
+
+
+   \subsection{Qualité et satisfaction des besoins}
+
+\textbf{Chaîne de traitement des besoins :}\hfill\\
+
+Besoins Réels \rightarrow Besoins perçus \rightarrow Besoins exprimés \rightarrow Besoins retenus  \rightarrow  Solutions proposées \rightarrow Besoins spécifiés \rightarrow Phase de conception / Réalisation \rightarrow Besoin réalisé
+
+Cycle d’affinage des besoins et de réajustement au cas ou les besoins réalisés ne couvrent pas les exigences client. C’est une des plus grosses difficultés !
+
+   \subsection{Maîtriser la qualité des besoins du client avant tout !}
+
+Définition de la satisfaction client : Interface entre la Demande Inutile / Insatisfaction client \& Qualité inutile, c’est à dire des choses que le client demande, mais où il a tord de le faire (exigence à la con).\\
+
+	\textbf{Critères de sélection  :}\hfill\\
+	\begin{itemize}
+		\item Besoins du Client
+		\item Spécification du Logiciel
+		\item Réalisation du soft
+	\end{itemize}
+
+
+\section{Les non-conformités : perception de la non qualité du logiciel}
+
+\textbf{Différentes expressions de la non qualité dans le logiciel :}\hfill\\
+
+\begin{itemize}
+    \item Indisponibilité du soft
+    \item Correction, mise à jour de documents
+    \item Déplacements, logistique de diffusion
+    \item Retard de livraison
+    \item Difficulté d’utilisation
+    \item Abandon de l’application
+\end{itemize}
+
+
+
+
+III - Le coût de la non-qualité :
+
+   1. Répartition des erreurs entre les phases :
+
+
+
+65% des erreurs sont trouvées lors de la phase de spécification, 35% lors du codage, mais ce sont celle qui sont le plus couteuses...
+Et  75% des erreurs de spécifs sont trouvées avant la recette (lors du codage...)
+Seulement 30% des erreurs de code sont trouvées avant la recette (car on a pas fait de tests unitaires assez bon, pas assez de tests fonctionnels, ou alors ils ne sont pas assez exhaustifs, et que lors du recettage, une personne avec des yeux neufs arrive, et fait une utilisation différente du logiciel, et trouve un bug). D’où l’émergence des méthodes agiles, où le recettage est fait tout au long du produit. Citation de Linus Torvalds : « Given enough eyeballs, all the bugs are shallow » : « Si on montre le logiciel/code à assez de monde, tous les bugs surgissent ».
+
+Plus on trouve un bug  tard, plus c’est cher, dit et répété pendant 6 slides !
+
+   2. Relation entre le coup et sa qualité : 
+
+
+
+Graphe intéressant ( slide 13 ) mettant en évidence deux choses :
+
+    * Il existe un point d'équilibre entre réponse aux besoins et la surqualité, ou le coût global est minimal. C’’est une courbe en x²
+    * A chaque coût est associé à deux points, un point en perfectionnement et un point en surqualité. 
+
+
+
+IV- Émergence de la fonction qualité dans le développement de logiciel :
+
+   1. Position de la fonction qualité dans le logiciel :
+
+
+
+    « Le développement de logiciel est un système complexe soumis à un faisceau de motivatons et de contraintes »
+
+La qualité n’est pas une fin en soi, il faut trouver des compromis sur plusieurs plans (méthodes, technique...). Ces compromis sont déterminés de façon rigoureuse, de façon à obtenir l’optimum.
+
+Le contexte à évolué, avant c’était le savoir faire qui avait la prédominance, du coup des couts incalculable et fiabilité tombée au profit de l’exploit technique. Maintenant nous sommes rentrés dans un contexte de compétitivité financiere ou l’on doit avoir une forte maitrise des process de façon a rester rentable !
+
+   2.
+
+      Parallèle avec l’industrie 
+
+    *
+
+      Premier niveau :  Minimiser le nombre de rebut  / logiciel le plus fiable possible
+    *
+
+      Second niveau :  Optimiser le process de fabrication  / Optimiser le processus de création (introduction de méthodes USDP, agiles...)
+    *
+
+      Troisième niveau : Définition de best practices, valable dans le logiciel
+
+
+V - Qualité attendue par les différents acteurs :
+
+Compromis entre les différents acteurs, MOA, MOE et utilisateurs
+
+    * MOA :
+          o Respect des objectifs stratégiques (coûts/délais/performance)
+          o Maîtrise du process d’évolution du logiciel
+          o L’efficacité du développement et de la maintenance
+          o L’auditabilité des application
+
+
+
+Dans le processus qualité, la MOA est en charge, de l’affectation des responsabilités, établir et répartir les charges nécessaires à l’obtention du niveau de qualité souhaité.
+Coordination, gestion process qualité et gestion projet
+
+    * Utilisateurs :
+          o Conformité fonctionnelles
+          o Valeur pédagogique
+          o Valeur technique
+
+o
+
+    * MOE :
+          o Choisir un process de developpement approprié
+          o Proposer et maîtriser une démarche qualité
+          o Suivi du projet
+          o Prévoir la maintenance, l’évolutivité
+          o Efficacité du developpement
+          o respect des procédures
+          o pertinence de la documentation 
+
+
+
+
+VI - L’approche management par la qualité pour le logiciel :
+
+Avant toute chose,  95% du coup total d’un projet est engagé alors que 20% de ce coup total n’est dépensé.
+
+Les grandes disciplines du management par la qualité :
+
+    * Gestion de Projet
+    * Production
+    * Assurance qualité Logicielle 
+
+
+
+La qualité totale à comme rôle d’équilibrer le système de développement, en fonction d’un optimum coût / qualité.
+
+CS : Qualité de service
+CN : Qualité du produit
+
+Conclusion :
+
+Cycle de qualité lourd et long  à mettre en place, on compte 1 an pour passer le la phase d’éveil (prise de conscience des pb de qualités) à la phase de sensibilisation ( prise de conscience par chacun et début d’application de best practices), puis 3 de formalisation (système qualité , normes, formation interne, moyens investis...), pour enfin arriver a maturité -> Certification 
