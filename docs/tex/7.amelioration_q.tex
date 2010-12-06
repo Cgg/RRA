@@ -1,0 +1,147 @@
+\part{Techniques d’amélioration de la qualité}
+
+Avant-propos
+
+3 domaines Management par la Qualité : GdP, Support et Doing
+4 disciplines du support : AQ (chap 6), Vérification et Validation (V&V), Gestion de Configuration (GdC) et Test et Evaluation Indépendante (T&E)
+V&V : s’assure conformité par rapport aux exigences (tous niveaux du développement)
+GdC : assure visibilité permanente de la production du logiciel (suivi des documents, modules …)
+T&E : assure recette client d’un système indépendamment de la production
+
+2ème discipline du support : Vérification & Validation (V&V)
+intro aux techniques de contrôle
+
+contrôle : à partir d’informations on prend une décision, débouche sur des actions correctrices. à la fois validation (bon produit) et vérification (le produit est fait correctement)
+évaluation du produit (validation) et du processus (vérification)
+
+3 règles d’or :
+Définir les vérifications : fixer des référentiels + liste des vérifications
+Mettre en face de chaque vérification les procédures associées : on fixe le controle (quoi, qui, comment, quand …)
+Spécifier les outils pour : aider à réaliser les controles (aide saisie, recherche 						automatisée …)
+
+					gérer les controles (confidentialité, enregistrement, 							traçabilité …)
+					exploiter les résultats
+les controles qualité (ou formels)
+outil d’évaluation de la qualité
+controler “ce qui est nécessaire” par rapport clauses qualités et nature du produit
+pourquoi controler : vérifier les écarts entre les dispositions d’assurance qualité définies dans le PAQL et la réalité
+les controles techniques (sur le fond)
+
+objectifs : s’assurer tout au long du processus de fabrication :
+cohérence entre livrables de l’étape n et (actuelle) et résultats de n-1
+description des interfaces
+conformité vis à vis exigences fonctionnelles et non fonctionnelles
+
+on fait à la fois validation (bon produit) et vérification (faire le produit correctement)
+justification des controles techniques : plus on voit une erreur tot moins ça coute !
+on fout des controles tout au long du cycle de développement (définition, conception, réalisation et exploitation)
+controle de situation (audit)
+
+objectif : faire point sur situation technique
+quand : demande d’un client
+qui : personnes indépendantes du projet
+quoi : organisation de l’entreprise, état d’avancement du logiciel, processus de conduite de projet
+comment : identifier écarts entre situation réelle et prévue
+(détail des différents types d’audits suivant type de référentiel slide 15)
+mise en oeuvre des controles de qualité
+
+(3 slides, 3 slides barrés 16 à 18)
+présentation d’un exemple : cycle de vie d’un système, positionnement des revues et modèle d’organisation des équipes
+3ème discipline du support : Gestion de configuration (GdC)
+
+(configuration = version)
+intro à la GdC
+configuration : définie par une liste cohérente de composants dans un certain état. Associée à un certain type d’acteurs (utilisateur, développeur …)
+changement de version = évolution majeure du logiciel
+révision = évolution mineure
+que doit-on gérer : schéma dégueulasse slide 21
+je dirais qu’on gère le lien entre les différentes versions temporelles et les fichiers (description statique)
+moyens : PAQL, chaine de production, Dossier de suivi de configuration (DSC), plan de test et environnement de test
+gestions de différents espaces : espace de référence contient dernière version cohérente
+espace de développement : pour le développement !
+espace d’archivage : contient l’ensemble des configurations de référence
+article de configuration : plus petites entités gérées dans la GdC, plus petites entités pouvant passer d’un espace à un autre
+apports de la GdC
+
+chacun (chef de projet, resp qualité, équipe de dvpt, client) y trouve son compte (slide 26 pose 4 quesrions que chacun se pose)
+GdC consite à :
+gérer l’ensemble des composants (documents, logiciels d’application, logiciels de base, fiches produites pendant dvpt, matériel)
+prendre une assurance contre le désordre en assurant la cohérence de ce qui lui est confié
+présenter de manière claire et complète la configuration instantanée du produit et l’état d’accomplissement des spécifs fonctionnelles et techniques (doc, source, exécutables …)
+
+champs d’application de la GdC : configurations de référence (ou référentiels)
+
+tous les articles sont en cohérence fonctionnelle et technique
+article de configuration représenté par : ses composants, les liens entre ces composants, ses interfaces dans le cadre d’ensembles plus larges
+caque intervenant doit pouvoir manipuler un ensemble cohérent sans perturber les autres : plusieurs types de configuration : de spécification, tests, dvpt et une de référence (liste des composants approuvés qui servent pour phases ultérieures du projet (les autres configurations))
+comment organiser une GdC
+
+démarche :
+analyse du besoin des différents intervenants (espaces nécessaires, activités de gestion de configuration et leur fréquence, confidentialité ...)
+énumération des types d’articles de configuration et de leurs liens
+mise en place de l’organisation
+mise en place des moyens
+identification des articles de configuration pour chaque type retenu
+mise en oeuvre
+
+
+attributs d’un article de configuration : identification, auteur, date de création et dernière modif, état (encours, gelé …), droit d’accès, support …
+articles groupés en configurations (ensembles complets et cohérents d’articles logiquement reliés) ces liens servent à analyser impact d’une modif, assurer cohérence des liens après modif
+à une configuration on associe un arbre de configuration : noeud = objets de type agrégat, feuille = fichiers avec des liens de composition, génération, référence, applicabilité, instanciation, traçabilité (exemples slide 34 à 36)
+
+4 axes:
+identifier : chaque configuration -> description technique des articles à chaque instant de leur cycle de vie
+maitriser : évolution de chaque configuration
+enregistrer : prise en compte de l’état de chaque configuration
+controler : audits de configuration fonctionnels (ACF) et physiques (ACP)
+
+
+deux actions peuvent déclencher une gestion des modifications :
+détaction d’une anomalie (DA) qui génére un rapport d’anomalie (RA)
+demande d’évolution demandée par le client (DE)
+
+interaction entre la GdC et la production de logiciel
+
+GdC : états stables et référencés du logiciel, gestion de la configuration de référence d’un logiciel et ses évolutions
+Production de logiciel : structuration et maitrise de la construction du logiciel, phase de construction du logiciel
+
+2 approches différents, un objectif commun : faciliter la vie et meilleure qualité
+ccl
+
+C’est une activité de soutien de projet, qui doit être adapté aux car de chaque projet.
+couts : définition, mise en place et suivi
+gains : satisfaction du client, homogénéité des dvpts, organisation de la production, qualité des produits, performance
+4ème discipline du support : Test & Evaluation Indépendante (T&E)
+objectif de T&E
+
+objectif : exprimer en phase d’intégration système un point de vue différent et indépendant des équipes système et dvpt de logiciel
+règle : la prise en compte des évolutions implique une reprise su processus de dvpt qui doit se situer le plus en amont possible
+principales livraisons
+
+pas compris slide 51
+avis de livraison à l’Intégration & Validation
+
+plan type pour un avis de livraison :
+identification du logiciel :
+éléements associés
+RA corrigés et non corrigés
+DM prises en compte
+contenu de la livraison :
+les PROM
+sous produits logiciel
+sous systèmes
+contenu du logiciel livré :
+fonctions tesstées
+fonctions non testées
+restrictions
+infos sur le logiciel livré
+procédure d’installation du logiciel
+procédure de lancement du logiciel
+annexes :
+référenciel prévisionnel
+fichiers de démarrage
+utilisation particulière
+
+Ccl
+
+Toutes ces activités doivent être mises en oeuvre pour obtenir un produit de qualité. Elles ne sont pas indépendantes. Il faut les réduire au maximum -> réduire les couts.
