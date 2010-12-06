@@ -1,0 +1,214 @@
+\part{Mise en Oeuvre d’un système qualité pour la production de logiciel} 
+
+\section{Cadre général pour la mise en oeuvre d’une démarche qualité pour la production de logiciel}
+
+
+L’assurance qualité est chargée d’appliquer à l’échelle d’un produit les directives / standards préétablis d’un système qualité. Ceci avant ( préparation), pendant (dév) et après (maintenance).
+Il est évident que l’AQ peu définir au fil des projets de nouveaux standards visant à améliorer le SQ, mais attention aux fausses best Practices ! \\
+
+Trois grandes entités du système qualité logiciel :\\
+\begin{itemize}
+\item La Gestion de configuration : Assure la visibilité permanente d’une version du soft ainsi que des composants satellites (documentation, modules)
+\item Vérification & Validation  : S’assure de la conformité par rapport aux besoins a tout niveau du dev.
+\item Tests \& Evaluation :  S’assure de la recette au niveau client, et de la maintenance derrière pour y apporter quelque chose.
+\end{itemize}
+
+
+Le système qualité modélise et évalue  le système de production logiciel en continu. 
+Ses objectifs sont de mettre en oeuvre une démarche qualité au niveau Entreprise et au niveau Projet, en gardant toujours un soucis d’optimisation constant.
+Chaque projet est unique, et nécessite son propre PAQL !\\
+
+Zone d’action d’un Système qualité :
+\begin{itemize}
+\item PdV Organisationnel : Mise sus contrôle de l’organisation de l’entreprise ( enssemble de processus) 
+\item PdV Démarche : Approche progressive et évolutive de la démarche, allant de l’expression de la politique qualité, sa mise en place, son entrée dans les moeurs et enfin son évaluation.
+\end{itemize}
+
+
+Objectifs d’un SQ :
+\begin{itemize}
+\item Prise en compte du contexte multi-partenaires et les procupéations qualité des différents métiers
+\item Minimiser le risque de dérive des projets
+Facilier le retour d’expérience
+\item Maitriser les couts / déslais, harmoniser le corps et les normes des procédures
+\item Une visibilité totale du process de production
+\end{itemize}
+
+\section{La structure documentaire d’un système qualité}
+
+
+Comment se décompose un SQ : 
+\begin{itemize}
+\item Structure organisationelle
+\item Responsabilités
+\item Processus de développement
+\item Procédures 
+\item Ressources
+\end{itemize}
+
+Avec bien entendu la direction au dessus ! \\
+
+Architecture documentaire :
+\begin{itemize}
+\item Politique Qualité de l’Entreprise : Manuel Qualité / Manuel Assurance Qualité
+\item Procédures : Instructions / Modes opératoires 
+\item Projet : Documents (contrats, PAQL, PDL...)
+\end{itemize}
+
+
+	\subsection{Documentation de niveau 1}
+
+Manuel Qualité : énonce et détaille la Poltique qualité applicable au niveau de l’entreprise ou d’un sous ensemble sectoriel important. 
+Pose les standards de l’entreprise, définition des Best Practices .\\
+
+\textit{“Avec mon MAQ  (MAnuel Qualité) je peux frimer à l’extérieur, et ça se voit à l’interieur !”}
+
+	\subsection{Documentation de niveau 2}
+
+Manuel de Mise en Oeuvre Opérationelle, énonce les Règles d’ingéniérie, Outils utilisés, procédures, documentations liées.
+Cela cimente le respect des standards et la réutilisation des bests practices, c’est la qualité par construction.
+
+	\subsection{Documentation de niveau 3}
+
+Documentation des projets informatiques: \\
+
+5 grands types : 
+\begin{enumerate}
+\item Documents de relations Contractuels ( CdC, Proposition...)
+\item Document de gestion projet (Initialisation, suivi, bilan...)
+\item Document d’assurance qualité ( PAQL, Audit interne, eval en fin de phase, plans de test) \textbf{Disciplines du Support}
+\item Document d’études et de développement ( Etude préalable, détaillée, dev....)
+\item Documents d’utilisation, 
+\item Enregistrements qualité (preuves de la mise en oeuvre des règles qualité pendant le projet)
+\end{enumerate}
+
+
+Quelques dossiers importants :
+\begin{description}
+\item[Dossier d’init] Description de la mise en oeuvre des ressources pour développer et produire le produit logiciel en respectant les contraintes. 
+Evalue les risques, l’organisation du projet, le planing prévisionel, les moyens mis en oeuvre, documentation de suivi...
+
+\item[PAQL] Modes opératoires, des ressources, des séquences d’activités liés a la qualité 
+Permet de s’assurer de la mise en oeuvre et de l’efficacité des activités prévues pour obtenir la qualité requie
+\end{description}
+\hfill\\
+IL FAUT DONNER CONFIANCE AU CLIENT !
+
+\section{1ere discipline du support : l'assurance qualité}
+
+	\subsection{Rôle de l’assurance qualité}
+
+“Ensemble de dispositions préétablies et systématiques nécessaires pour donner la confiance appropriée en ce qu’un produit ou service satisfera aux exigences données, relatives à la qualité”
+
+
+	\subsection{AQ au niveau de l’entreprise}
+
+Rédaction du Système qualité :\\
+	Expérience et culture maison + Contexte + Politique de l’entreprises + Etat de l’art
+		\rightarrow CHOIX \rightarrow MQ, MAQ_service, spécifs et conceptions\\
+			( Recherche des Best Practices)\\
+
+Chaque service d’une entreprise doit rédiger son propre MAQ ( MAQL si service informatique ) héritant du MAQ de la direction général.\\
+
+(Exemple sur un cycle en Y et sur un cycle en V de la diapo 25 à 27)\\
+
+Exemple sur la production du code : MAQL :
+\begin{itemize}
+\item Rédaction et mise en place des procédures
+\item Définition de Normes de conception et programmation
+\item Rédaction de plan type, règles de productions
+\item Choix d’une organisation, des méthodes et des outils
+\end{itemize}
+
+(Exemple niveau guide de style diapo 29 )
+
+	\subsection{AQ au niveau du projet}
+
+	\begin{description}
+	\item[Objectif du génie logiciel] Faire correctement le bon produit dans des conditions satisfaisantes
+	\item[Objectif de l’Assurance Qualité Logiciel (AQL)] Bien faire le produit ( bonnes règles de prod et bon procédé
+	\item[Contrôle Qualité Logiciel ( CQL)] vérifier le produit
+	\item[Objectif de la Gestion de projet Logiciel ( GdP)] maitriser le procédé
+
+	\item[RQ] doit s’assurer que les logicies et processus utilisés sont conformes au exigences du CdC et respectent les plans établis.
+	\end{description}
+
+	PAQL doit répondre à :
+	\begin{description}
+	\item Qui est responsable de quoi ?
+	\item Quels sont les engagements des différents partenaires envers la MO ?
+	\item Quels sont les Objectifs Qualité du projet ? du produit ?
+	\item Quels sont les circuits d’information, règles de production et de gestion de la doc ?
+	\item Quels sont les méthodes et outils ?
+	\end{description}
+
+Portée d’un PAQL : totale.\\
+
+Paramètres influençant le PAQL :
+	\begin{description}
+	\item les exigences du client ( cf CdC)
+	\item les difficultés à résoudre le problème
+	\item équipe de dév
+	\item environnement de dév
+	\item stabilité du système
+	\end{description}
+
+\textbf{Procédure d’élaboration :}\hfill\\
+	Besoins \rightarrow Classification des exigences Qualité \rightarrow Moyen pour assurer les qualités requises \rightarrow PAQL
+
+	\subsection{Synthèse}
+	
+\section{Environnement organisationnel de la qualité dans un projet}
+
+
+Equivalent entre le déroulement du projet et la mise en place du PAQL :\\
+
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Projet && Avant vente && Lancement du projet && Processus de projet && Cloture du Projet
+\hline
+PAQL && Définition, Rédaction initiale && Rédaction initiale, validation && MAJ Rédaction, validation, mise en oeuvre && Bilan qualité
+\hline
+\end{tabular}
+
+\section{Suivi de la démarche qualité}
+
+Définir des vérifications pour contrôler la conformité, aussi bien sur la forme (structuration des documents, programmes ) que sur le fond (Conception, réalisation ), de l’évolution des processus et des produits par rapport au PAQL \rightarrow rédaction d’un chapitre sur le contrôle de la qualité (cf Chap 12 du PAQL).
+
+\section{Conclusion}
+
+\begin{itemize}
+\item Démarche qualité à tous les niveaux (Entreprise, processus, produit )
+\item Suivi de la qualité constant
+\item Indépendance des documents Qualité
+\end{itemize}
+
+Prévoir pour mieux Agir, Controler pour mieux Réagir.\\
+
+Système Qualité :
+\begin{itemize}
+\item MQ : Manuel Qualité de l’entreprise
+\item MAQ : Manuel d’Assurance Qualité  
+\item MAQL :   			 	          Logiciel
+\item PAQL : Plan d’Assurance Qualité Logiciel
+\item PDL : Plan de Développement de Logiciel 
+\item phase de Construction de la Qualité
+\item Assurance Qualité
+\item Évaluation ( Vérification ou Contrôle )
+\item Évaluation de la Qualité ( META- Qualité ? )
+\end{itemize}
+
+\textbf{La qualité de construit progressivement}\hfill\\
+
+Règles d’or de l’AQL :
+\begin{itemize}
+\item Découper le processus de développement
+\item Concentre ses efforts sur les points critiques
+\item Définir les responsabilités entre partenaires
+\item Structurer la doc
+\item Vérifier la qualité en cours de développement
+\item Mesurer l’avancement et le comparer avec les prévisions
+\item Définir des standard, normes, convention et best practices
+\item Mettre en oeuvre des outils de fabrication
+\item Disposer de règle pour maintenir la cohérence du logiciel
+\end{itemize}
