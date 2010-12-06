@@ -81,7 +81,7 @@ echo "
 # Listings
 echo "
 % Listings
-\usepackage{minted}
+\usepackage{listings}
 " >> $FILE
 
 # Spacing
