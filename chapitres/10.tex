@@ -20,13 +20,13 @@ La modélisation de la qualité se fait de deux points de vue : (Approche de McC
 \item[Qualité interne] : du point  de vue du concepteur – La conception et la réalisation s'est fait dans le respect des exigences fonctionnelles et non fonctionnelles et développées dans des condition économiques acceptables.
 \end{description}
 
-Souvent, une bonne qualité interne amène une bonne qualité externe : si le produit est bien conçu et respecte les exigences du client, alors le produit va être conforme aux attentes du client. Des mesures et des contrôles sont utilisée pour mesurer l'écart entre les exigences client (fonc. et non fonc.). Une négociation entre les différentes partis (MOA, MOE) est envisagée si les contrôles et les mesures ne sont pas satisfaisante, donc si la qualité interne est trop basse, donc que la qualité externe fait défaut.
+Souvent, une bonne qualité interne amène une bonne qualité externe : si le produit est bien conçu et respecte les exigences du client, alors le produit va être conforme aux attentes du client. Des mesures et des contrôles sont utilisée pour mesurer l'écart entre les exigences client (fonc. et non fonc.). Une négociation entre les différentes partis (MOA, MOE) est envisagée si les contrôles et les mesures ne sont pas satisfaisants, donc si la qualité interne est trop basse, donc que la qualité externe fait défaut.
 
 \hfill
 
 Cette approche permet :
 \begin{itemize}
-\item En début de projet, de définir 	une politique de qualité
+\item En début de projet, de définir une politique de qualité
 \item Par la suite, d'évaluer le niveau de qualité atteint
 \end{itemize}
 
@@ -50,10 +50,10 @@ Les usages du logiciels doivent être rassemblés selon 3 groupes :
 	\item Intégrité – Protection des données contre les attaques
 	\item Facilité d'emploi
 	\end{itemize}
-\item[La transposition (portabilité, 	réutilisation, couplabilité...)]
+\item[La transposition (portabilité, réutilisation, couplabilité...)]
 	\begin{itemize}
 	\item Portabilité : pouvoir changer le logiciel d'environnement matériel ou logiciel facilement
-	\item Réutilisation : pouvoir	réutiliser du code pour un autre logiciel
+	\item Réutilisation : pouvoir réutiliser du code pour un autre logiciel (capitalisation)
 	\item Couplabilité : pouvoir mettre ce logiciel en communication avec d'autre logiciels.
 	\end{itemize}
 \item[L'évolution]
@@ -111,9 +111,9 @@ Il y a 23 propriétés d'un logiciel, pour lesquelles le génie logiciel et l'as
 		\end{description}
 
 	\item Intégrité
-		\begin{description}	
-		\item[Contrôle des accès] : On peut restreindre certaines 	fonctionnalité à certains types d'utilisateurs.			
-		\item[Vérification des accès] : on peut suivre l'accès aux données (date de dernière modif, etc.).
+		\begin{description}
+		\item[Contrôle des accès] : On peut restreindre certaines fonctionnalités à certains types d'utilisateurs.
+		\item[Vérification des accès] : on peut suivre l'accès aux données (date de dernière modif, etc).
 		\end{description}
 
 	\item Efficacité
@@ -166,7 +166,7 @@ Il y a 23 propriétés d'un logiciel, pour lesquelles le génie logiciel et l'as
 
 	\item Réutilisabilité
 		\begin{description}	
-		\item[Généralité] : Capacité à conserver le code en ajoutant plein de fonctionnalité, à rester ouvert au changement.
+		\item[Généralité] : Capacité à conserver le code en ajoutant plein de fonctionnalités, à rester ouvert au changement.
 		\end{description}
 
 	\item Portabilité	
@@ -176,7 +176,7 @@ Il y a 23 propriétés d'un logiciel, pour lesquelles le génie logiciel et l'as
 
 	\item Couplabilité
 		\begin{description}	
-		\item[Standardisation des communications] : Utilisation de 	 protocoles standards (HTTP, DBUS, CORBA, etc.).
+		\item[Standardisation des communications] : Utilisation de protocoles standards (HTTP, DBUS, CORBA, etc.).
 		\item[Standardisation des données] : Utilisation de standards normalisés pour le stockage des données (SQL, XML, YML, STL, etc.).
 		\end{description}
 
@@ -188,7 +188,7 @@ Il y a 23 propriétés d'un logiciel, pour lesquelles le génie logiciel et l'as
 \section{Troisième partie : 3e niveau de décomposition : les métriques}
 
 Les métriques et indicateurs servent à mettre des chiffres derrière les critères, car \textit{« Sans mesure, pas de contrôle, sans contrôle, pas de qualité »}.\\
-On utilise donc souvent une approche dite quantitative pour ce contrôler l’état du projet par rapport à ces objectifs.\\ 
+On utilise donc souvent une approche dite quantitative pour contrôler l’état du projet par rapport à ces objectifs.\\ 
 On a donc quatre objectifs principaux pour la qualité :
 \begin{enumerate}
 \item Évaluer le niveau de qualité atteint
@@ -201,7 +201,7 @@ On a donc quatre objectifs principaux pour la qualité :
 
 Trois grandes approches de l’approche quantitative :
 \begin{enumerate}
-\item L’analyse statique : sans lancer le programme (détection de fautes de styles, comptage des commentaires, graphes d’appel, complexité cyclomatique,en gros ce que fait Kalistik). Exemple de métrique : nombre d’arc du graphe d’appel, nombre de noeuds, nombre de niveau, complexité hierarchique (nombre de composants / nombre de niveaux).
+\item L’analyse statique : sans lancer le programme (détection de fautes de styles, comptage des commentaires, graphes d’appel, complexité cyclomatique,en gros ce que fait Kalistik). Exemple de métrique : nombre d’arc du graphe d’appel, nombre de noeuds, nombre de niveaux, complexité hierarchique (nombre de composants / nombre de niveaux).
 \item L’analyse dynamique : pendant que le programme tourne (profiling du code, détection de fuites de mémoire, en gros, ce que fait Valgrind). On prend aussi en compte dans cette approche l’analyse de modèle de fiabilité (mean time to failure, par exemple).
 \item L’analyse formelle : beaucoup plus de maths, calcul manuel de deadlines pour le temps réel, par exemple (beaucoup plus cher, et à réserver aux systèmes critiques).
 \end{enumerate}
