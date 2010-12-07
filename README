@@ -1,11 +1,15 @@
 Pour générer le pdf, (installer texlive-full), faire 
-    pdflatex rra.tex
-dans docs/tex/ 
+    pdflatex resume_complet.tex
 
 Résumeurs :
 Sandra Mondain
+Julien Levesy
 Nicolas Silva
 Gaël Motte
 Quentin Bragard
 Flavie Roussy
-...
+Paul Adenot
+
+LaTeX : 
+Clément Geiger 
+Sandra Mondain
