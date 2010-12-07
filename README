@@ -1,5 +1,6 @@
 Pour générer le pdf, (installer texlive-full), faire 
-    pdflatex rra.tex 
+    pdflatex rra.tex
+dans docs/tex/ 
 
 Résumeurs :
 Sandra Mondain
