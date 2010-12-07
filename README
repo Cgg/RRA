@@ -1,1 +1,1 @@
-Crédit : L'organisation du latex (makefile, script de génération) est de Raphaël Lizé.
+Pour générer le pdf, (installer texlive-full), faire pdflatex 0.premiere_latex.tex dans docs/tex
