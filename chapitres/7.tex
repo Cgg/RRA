@@ -1,0 +1,259 @@
+\chapter{Techniques d’amélioration de la qualité}
+
+\section{Avant-propos}
+
+\begin{description}
+	\item[3 domaines de Management par la Qualité :]
+	\begin{itemize}
+		\item GdC (Gestion de Configuration),
+		\item Support
+		\item Doing (Réalisation)
+	\end{itemize}
+
+	\item[4 disciplines du support :]
+	\begin{itemize}
+		\item AQ (chap 6),
+		\item Vérification et Validation (V\&V),
+		\item Gestion de Configuration (GdC),
+		\item Test et Évaluation Indépendante (T\&E)\\
+	\end{itemize}
+	\item[V\&V :] assure la conformité par rapport aux exigences (tous niveaux du développement)
+	\item[GdC :] assure la visibilité permanente de la production du logiciel (suivi des documents, modules\...)
+	\item[T\&E :] assure la recette client d’un système indépendamment de la production
+\end{description}
+
+\section{2ème discipline du support : Vérification \& Validation (V\&V)}
+
+	\subsection{Introduction aux techniques de contrôle}
+
+\textbf{contrôle} : à partir d’informations on prend une décision, qui débouche sur des actions correctrices. à la fois validation (bon produit) et vérification (le produit est fait correctement), évaluation du produit (validation) et du processus (vérification)\\\hfill\\
+
+3 règles d’or :
+\begin{itemize}
+	\item \textbf{Définir les vérifications} : fixer des référentiels + liste des vérifications
+	\item Mettre en face de chaque vérification les procédures associées : on fixe le contrôle (quoi, qui, comment, quand\ldots)
+	\item Spécifier les outils pour : 
+	\begin{itemize}
+		\item aider à réaliser les contrôles (aide à la saisie, recherche automatisée\ldots) 
+		\item gérer les contrôles (confidentialité, enregistrement, traçabilité\ldots)
+		\item exploiter les résultats
+	\end{itemize}
+\end{itemize}
+
+	\subsection{les contrôles qualité (ou formels)}
+
+	\begin{itemize}
+		\item outils d’évaluation de la qualité
+		\item controler “ce qui est nécessaire” par rapport aux clauses qualité et la nature du produit
+		\item pourquoi contrôler : vérifier les écarts entre les dispositions d’assurance qualité définies dans le PAQL et la réalité
+	\end{itemize}
+
+	\subsection{les contrôles techniques (sur le fond)}
+	\textbf{objectifs} : s’assurer tout au long du processus de fabrication :
+	\begin{itemize}
+		\item de la cohérence entre livrables de l’étape n et (actuelle) et résultats de n-1
+		\item description des interfaces
+		\item conformité vis à vis exigences fonctionnelles et non fonctionnelles
+	\end{itemize}
+
+On fait à la fois la validation (bon produit) et la vérification (faire le produit correctement).
+
+Justification des controles techniques : plus on voit une erreur tôt moins ça coûte !
+
+On met en place des contrôles tout au long du cycle de développement (définition, conception, réalisation et exploitation).
+
+	\subsection{contrôle de situation (audit)}
+	\begin{description}
+		\item[objectif] : faire point sur situation technique
+		\item[quand] : à la demande d'un client
+		\item[qui] : personnes indépendantes du projet
+		\item[quoi] : organisation de l’entreprise, état d’avancement du logiciel, processus de conduite de projet
+		\item[comment] : identifier écarts entre situation réelle et prévue
+(détail des différents types d’audits suivant type de référentiel slide 15)
+	\end{description}
+
+	\subsection{mise en oeuvre des contrôles de qualité}
+
+	(3 slides, 3 slides barrés 16 à 18)
+
+	Présentation d’un exemple : cycle de vie d’un système, positionnement des revues et modèle d’organisation des équipes.
+
+\section{3ème discipline du support : Gestion de configuration (GdC)}
+
+(configuration = version)
+
+	\subsection{intro à la GdC}
+	\begin{description}
+		\item[configuration] : définie par une liste cohérente de composants dans un certain état. Associée à un certain type d’acteurs (utilisateur, développeur,\...)
+		\item[changement de version] : évolution majeure du logiciel
+		\item[révision] : évolution mineure
+	\end{description}
+
+	\begin{description}
+		\item[que doit-on gérer] : schéma (illisible) slide 21, interprété ainsi : on gère le lien entre les différentes versions temporelles et les fichiers (description statique)
+		\item[moyens] : PAQL, chaine de production, Dossier de suivi de configuration (DSC), plan de test et environnement de test
+	\end{description}
+
+	\begin{description}
+		\item[gestion de différents espaces] : espace de référence contenant la dernière version cohérente
+		\item[espace de développement] : pour le développement !
+		\item[espace d’archivage] : contient l’ensemble des configurations de référence
+	\end{description}
+
+	\begin{description}
+		\item[article de configuration] : plus petites entités gérées dans la GdC, plus petites entités pouvant passer d’un espace à un autre
+	\end{description}
+
+
+	\subsection{apports de la GdC}
+
+	Chacun (chef de projet, resp qualité, équipe de dvpt, client) y trouve son compte (slide 26 pose 4 questions que chacun se pose).
+
+	GdC consite à :
+
+	\begin{itemize}
+		\item  gérer l’ensemble des composants (documents, logiciels d’application, logiciels de base, fiches produites pendant dvpt, matériel)
+		\item prendre une assurance contre le désordre en assurant la cohérence de ce qui lui est confié
+		\item présenter de manière claire et complète la configuration instantanée du produit et l’état d’accomplissement des spécifs fonctionnelles et techniques (doc, source, exécutables, \ldots)
+	\end{itemize}
+
+	\subsection{champs d’application de la GdC : configurations de référence (ou référentiels)}
+
+Tous les articles sont en cohérence fonctionnelle et technique.
+
+Un article de configuration est représenté par :
+
+\begin{itemize}
+	\item ses composants,
+	\item les liens entre ces composants,
+	\item ses interfaces dans le cadre d’ensembles plus larges.
+\end{itemize}
+
+Chaque intervenant doit pouvoir manipuler un ensemble cohérent sans perturber les autres : on définit donc plusieurs types de configuration.
+
+Configuration :
+
+\begin{itemize}
+	\item de spécification,
+	\item de tests,
+	\item de développement
+	\item de référence : liste des composants approuvés qui servent pour des phases ultérieures du projet (les autres configurations).
+\end{itemize}
+
+	\subsection{comment organiser une GdC}
+
+Démarche :
+
+	\begin{itemize}
+	\item Analyse du besoin des différents intervenants (espaces nécessaires, activités de gestion de configuration et leur fréquence, confidentialité,\...)
+	\item Enumération des types d’articles de configuration et de leurs liens
+	\item Mise en place de l’organisation
+	\item Mise en place des moyens
+	\item Identification des articles de configuration pour chaque type retenu
+	\item mise en oeuvre
+	\end{itemize}
+
+Attributs d’un article de configuration :
+
+\begin{itemize}
+	\item identification,
+	\item auteur,
+	\item date de création et de dernière modification,
+	\item état (encours, gelé, \...),
+	\item droits d’accès,
+	\item support
+	\item \ldots
+\end{itemize}
+
+Articles groupés en configurations (ensembles complets et cohérents d’articles logiquement reliés) : ces liens servent à analyser impact d’une modification et assurer la cohérence des liens après modification.
+
+À une configuration on associe un arbre de configuration : le \textbf{noeud} est un objet de type agrégat, la \textbf{feuille} représente un fichier avec des liens de composition, génération, référence, applicabilité, instanciation, traçabilité (exemples slide 34 à 36).
+
+4 axes:
+
+	\begin{description}
+	\item[Identifier] : chaque configuration $\rightarrow$ description technique des articles à chaque instant de leur cycle de vie
+	\item[Maitriser] : évolution de chaque configuration
+	\item[Enregistrer] : prise en compte de l’état de chaque configuration
+	\item[Contrôler] : audits de configuration fonctionnels (ACF) et physiques (ACP)
+	\end{description}
+
+Deux actions peuvent déclencher une gestion des modifications :
+
+	\begin{itemize}
+	\item détection d’une anomalie (DA) qui génére un rapport d’anomalie (RA)
+	\item demande d’évolution demandée par le client (DE)
+	\end{itemize}
+	\hfill\\
+
+	\subsection{interaction entre la GdC et la production de logiciel}
+
+\begin{description}
+	\item[GdC] : états stables et référencés du logiciel, gestion de la configuration de référence d’un logiciel et ses évolutions.
+	\item[Production de logiciel] : structuration et maitrise de la construction du logiciel, phase de construction du logiciel.
+\end{description}
+
+On voit 2 approches différentes, mais un objectif commun : faciliter la vie et obtenir une meilleure qualité.
+
+	\subsection{Conclusion}
+
+C’est une activité de soutien de projet, qui doit être adaptée au cas de chaque projet.
+
+\begin{description}
+	\item[coûts] : définition, mise en place et suivi,
+	\item[gains] : satisfaction du client, homogénéité des developpements, organisation de la production, qualité des produits, performance
+\end{description}
+
+\section{4ème discipline du support : Test \& Évaluation Indépendante (T\&E)}
+
+	\subsection{objectif de T\&E}
+	\begin{description}	
+		\item[objectif] : exprimer en phase d’intégration système un point de vue différent et indépendant des équipes système et developpementt de logiciel,
+		\item[règle] : la prise en compte des évolutions implique une reprise su processus de developpementt qui doit se situer le plus en amont possible
+	\end{description}
+
+	\subsection{principales livraisons}
+	$\rightarrow$ slide 51 %TODO%
+
+	\subsection{avis de livraison à l’Intégration \& Validation}
+
+	plan type pour un avis de livraison :
+
+\begin{description}
+	\item[identification du logiciel :]
+	\begin{itemize}
+		\item éléments associés
+		\item RA corrigés et non corrigés
+		\item DM prises en compte
+	\end{itemize}
+
+	\item[contenu de la livraison :]
+	\begin{itemize}
+		\item les PROM
+		\item sous produits logiciel
+		\item sous systèmes
+	\end{itemize}
+
+	\item[contenu du logiciel livré :]
+	\begin{itemize}
+		\item fonctions testées
+		\item fonctions non testées
+		\item restrictions
+		\item infos sur le logiciel livré
+	\end{itemize}
+
+	\item[procédure d’installation du logiciel]
+
+	\item[procédure de lancement du logiciel]
+
+	\item[annexes :]
+	\begin{itemize}
+		\item référenciel prévisionnel
+		\item fichiers de démarrage
+		\item utilisation particulière
+	\end{itemize}
+\end{description}
+
+\section{Conclusion}
+
+Toutes ces activités doivent être mises en oeuvre pour obtenir un produit de qualité. Elles ne sont pas indépendantes. Il faut les réduire au maximum $\rightarrow$ et donc réduire les coûts.
