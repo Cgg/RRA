@@ -1,4 +1,5 @@
-Pour générer le pdf, (installer texlive-full), faire pdflatex 0.premiere_latex.tex dans docs/tex
+Pour générer le pdf, (installer texlive-full), faire 
+    pdflatex rra.tex 
 
 Résumeurs :
 Sandra Mondain
