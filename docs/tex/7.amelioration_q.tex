@@ -18,7 +18,7 @@
 		\item Test et Évaluation Indépendante (T\&E)\\
 	\end{itemize}
 	\item[V\&V :] assure la conformité par rapport aux exigences (tous niveaux du développement)
-	\item[GdC :] assure la visibilité permanente de la production du logiciel (suivi des documents, modules\...)
+	\item[GdC :] assure la visibilité permanente de la production du logiciel (suivi des documents, modules...)
 	\item[T\&E :] assure la recette client d’un système indépendamment de la production
 \end{description}
 
@@ -44,21 +44,21 @@
 
 	\begin{itemize}
 		\item outils d’évaluation de la qualité
-		\item controler “ce qui est nécessaire” par rapport aux clauses qualité et la nature du produit
+		\item contrôler «ce qui est nécessaire» par rapport aux clauses qualité et la nature du produit
 		\item pourquoi contrôler : vérifier les écarts entre les dispositions d’assurance qualité définies dans le PAQL et la réalité
 	\end{itemize}
 
 	\subsection{les contrôles techniques (sur le fond)}
 	\textbf{objectifs} : s’assurer tout au long du processus de fabrication :
 	\begin{itemize}
-		\item de la cohérence entre livrables de l’étape n et (actuelle) et résultats de n-1
+		\item de la cohérence entre livrables de l’étape $n$ et (actuelle) et résultats de $n-1$
 		\item description des interfaces
 		\item conformité vis à vis exigences fonctionnelles et non fonctionnelles
 	\end{itemize}
 
 On fait à la fois la validation (bon produit) et la vérification (faire le produit correctement).
 
-Justification des controles techniques : plus on voit une erreur tôt moins ça coûte !
+Justification des contrôles techniques : plus on voit une erreur tôt moins ça coûte !
 
 On met en place des contrôles tout au long du cycle de développement (définition, conception, réalisation et exploitation).
 
@@ -72,7 +72,7 @@ On met en place des contrôles tout au long du cycle de développement (définit
 (détail des différents types d’audits suivant type de référentiel slide 15)
 	\end{description}
 
-	\subsection{mise en oeuvre des contrôles de qualité}
+	\subsection{mise en \oe{}uvre des contrôles de qualité}
 
 	(3 slides, 3 slides barrés 16 à 18)
 
@@ -84,7 +84,7 @@ On met en place des contrôles tout au long du cycle de développement (définit
 
 	\subsection{intro à la GdC}
 	\begin{description}
-		\item[configuration] : définie par une liste cohérente de composants dans un certain état. Associée à un certain type d’acteurs (utilisateur, développeur,\...)
+		\item[configuration] : définie par une liste cohérente de composants dans un certain état. Associée à un certain type d’acteurs (utilisateur, développeur,...)
 		\item[changement de version] : évolution majeure du logiciel
 		\item[révision] : évolution mineure
 	\end{description}
@@ -145,12 +145,12 @@ Configuration :
 Démarche :
 
 	\begin{itemize}
-	\item Analyse du besoin des différents intervenants (espaces nécessaires, activités de gestion de configuration et leur fréquence, confidentialité,\...)
+	\item Analyse du besoin des différents intervenants (espaces nécessaires, activités de gestion de configuration et leur fréquence, confidentialité,...)
 	\item Enumération des types d’articles de configuration et de leurs liens
 	\item Mise en place de l’organisation
 	\item Mise en place des moyens
 	\item Identification des articles de configuration pour chaque type retenu
-	\item mise en oeuvre
+	\item mise en \oe{}uvre
 	\end{itemize}
 
 Attributs d’un article de configuration :
@@ -159,7 +159,7 @@ Attributs d’un article de configuration :
 	\item identification,
 	\item auteur,
 	\item date de création et de dernière modification,
-	\item état (encours, gelé, \...),
+	\item état (encours, gelé, ...),
 	\item droits d’accès,
 	\item support
 	\item \ldots
@@ -173,7 +173,7 @@ Articles groupés en configurations (ensembles complets et cohérents d’articl
 
 	\begin{description}
 	\item[Identifier] : chaque configuration $\rightarrow$ description technique des articles à chaque instant de leur cycle de vie
-	\item[Maitriser] : évolution de chaque configuration
+	\item[Maîtriser] : évolution de chaque configuration
 	\item[Enregistrer] : prise en compte de l’état de chaque configuration
 	\item[Contrôler] : audits de configuration fonctionnels (ACF) et physiques (ACP)
 	\end{description}
@@ -186,11 +186,11 @@ Deux actions peuvent déclencher une gestion des modifications :
 	\end{itemize}
 	\hfill\\
 
-	\subsection{interaction entre la GdC et la production de logiciel}
+	\subsection{Interaction entre la GdC et la production de logiciel}
 
 \begin{description}
 	\item[GdC] : états stables et référencés du logiciel, gestion de la configuration de référence d’un logiciel et ses évolutions.
-	\item[Production de logiciel] : structuration et maitrise de la construction du logiciel, phase de construction du logiciel.
+	\item[Production de logiciel] : structuration et maîtrise de la construction du logiciel, phase de construction du logiciel.
 \end{description}
 
 On voit 2 approches différentes, mais un objectif commun : faciliter la vie et obtenir une meilleure qualité.
@@ -215,26 +215,26 @@ C’est une activité de soutien de projet, qui doit être adaptée au cas de ch
 	\subsection{principales livraisons}
 	$\rightarrow$ slide 51 %TODO%
 
-	\subsection{avis de livraison à l’Intégration \& Validation}
+	\subsection{Avis de livraison à l’Intégration \& Validation}
 
 	plan type pour un avis de livraison :
 
 \begin{description}
-	\item[identification du logiciel :]
+	\item[identification du logiciel :]\hfill\\
 	\begin{itemize}
 		\item éléments associés
 		\item RA corrigés et non corrigés
 		\item DM prises en compte
 	\end{itemize}
 
-	\item[contenu de la livraison :]
+	\item[contenu de la livraison :]\hfill\\
 	\begin{itemize}
 		\item les PROM
 		\item sous produits logiciel
 		\item sous systèmes
 	\end{itemize}
 
-	\item[contenu du logiciel livré :]
+	\item[contenu du logiciel livré :]\hfill\\
 	\begin{itemize}
 		\item fonctions testées
 		\item fonctions non testées
@@ -246,7 +246,7 @@ C’est une activité de soutien de projet, qui doit être adaptée au cas de ch
 
 	\item[procédure de lancement du logiciel]
 
-	\item[annexes :]
+	\item[annexes :]\hfill\\
 	\begin{itemize}
 		\item référenciel prévisionnel
 		\item fichiers de démarrage
@@ -256,4 +256,4 @@ C’est une activité de soutien de projet, qui doit être adaptée au cas de ch
 
 \section{Conclusion}
 
-Toutes ces activités doivent être mises en oeuvre pour obtenir un produit de qualité. Elles ne sont pas indépendantes. Il faut les réduire au maximum $\rightarrow$ et donc réduire les coûts.
+Toutes ces activités doivent être mises en \oe{}uvre pour obtenir un produit de qualité. Elles ne sont pas indépendantes. Il faut les réduire au maximum $\rightarrow$ et donc réduire les coûts.
