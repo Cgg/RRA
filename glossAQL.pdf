@@ -1,0 +1,1403 @@
+%PDF-1.3
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 4 0 R
+ /F4 7 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Times-Roman
+<< /BaseFont /Times-Roman
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F3': class PDFType1Font 
+4 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page1': class PDFPage 
+5 0 obj
+% Page dictionary
+<< /Contents 13 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 12 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page2': class PDFPage 
+6 0 obj
+% Page dictionary
+<< /Contents 14 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 12 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'F4': class PDFType1Font 
+7 0 obj
+% Font Helvetica-BoldOblique
+<< /BaseFont /Helvetica-BoldOblique
+ /Encoding /WinAnsiEncoding
+ /Name /F4
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page3': class PDFPage 
+8 0 obj
+% Page dictionary
+<< /Contents 15 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 12 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page4': class PDFPage 
+9 0 obj
+% Page dictionary
+<< /Contents 16 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 12 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R10': class PDFCatalog 
+10 0 obj
+% Document Root
+<< /Outlines 17 0 R
+ /PageLabels 18 0 R
+ /PageMode /UseNone
+ /Pages 12 0 R
+ /Type /Catalog >>
+endobj
+% 'R11': class PDFInfo 
+11 0 obj
+<< /Author ()
+ /CreationDate (D:20101208174747-01'00')
+ /Keywords ()
+ /Producer (ReportLab http://www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title () >>
+endobj
+% 'R12': class PDFPages 
+12 0 obj
+% page tree
+<< /Count 4
+ /Kids [ 5 0 R
+ 6 0 R
+ 8 0 R
+ 9 0 R ]
+ /Type /Pages >>
+endobj
+% 'R13': class PDFStream 
+13 0 obj
+% page stream
+<< /Length 9453 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 615.0236 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 0 135 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F3 10 Tf 12 TL (Politique Qualit\351) Tj T* ET
+Q
+Q
+BT 1 0 0 1 0 122 Tm  T* ET
+q
+1 0 0 1 10 108 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL .739269 Tw (Norme ISO 9000 comme les "orientations et intentions g\351n\351rales d'un organisme relatives \340 la qualit\351) Tj T* 0 Tw (telles qu'elles sont officiellement formul\351es par la direction".) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 84 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL .310651 Tw (La politique qualit\351 permet de traduire les attentes et besoins des clients et la strat\351gie correspondante) Tj T* 0 Tw (de l'organisation tout en prenant compte la culture de l'organisation, ses march\351s et son secteur.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 60 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL .257984 Tw (De mani\350re g\351n\351rale, la politique qualit\351 doit \352tre en accord avec la politique g\351n\351rale de l'organisation) Tj T* 0 Tw (dont elle est une des composantes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL .053318 Tw (La politique qualit\351, une fois d\351finie, formul\351e, diffus\351e et comprise, incarnera la ligne directrice pour les) Tj T* 0 Tw (employ\351s et aidera dans la prise de d\351cision vers un but commun et partag\351.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 12 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL .867318 Tw (Les objectifs qualit\351 reprendront les grandes lignes de la politique qualit\351 et ainsi la concr\351tiseront de) Tj T* 0 Tw (mani\350re op\351rationnelle en d\351terminant les r\351sultats escompt\351s.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Ils doivent donc \352tre coh\351rents avec la politique qualit\351.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 501.0236 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 0 99 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F3 10 Tf 12 TL (Assurance Qualit\351) Tj T* ET
+Q
+Q
+BT 1 0 0 1 0 86 Tm  T* ET
+q
+1 0 0 1 10 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 52.82 Tm /F1 10 Tf 12 TL .850697 Tw (L\222assurance qualit\351 est la fourniture de produits et services tels que biens de consommation, produits) Tj T* 0 Tw .02248 Tw (manufactur\351s, projets industriels, prestations ou logiciels. Ils sont fournis par l\222\351conomie marchande, les) Tj T* 0 Tw 2.458443 Tw (administrations, les services publics et les nouvelles formes de distribution telles que les sources) Tj T* 0 Tw .929983 Tw (ouvertes pour les logiciels. Les concepts de l\222assurance qualit\351 s\222appliquent aussi aux \253 travaux pour) Tj T* 0 Tw (soi-m\352me \273, sous r\351serve d'une instanciation appropri\351e.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.82 Tm /F1 10 Tf 12 TL .943828 Tw (D\351finition extraite de la norme ISO 8402 :"Ensemble des activit\351s pr\351\351tablies et syst\351matiques mises) Tj T* 0 Tw 2.617485 Tw (en oeuvre dans le cadre du syst\350me qualit\351, et d\351montr\351es en tant que besoin, pour donner la) Tj T* 0 Tw (confiance appropri\351e en ce qu'une entit\351 satisfera aux exigences pour la qualit\351") Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 273.0236 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 0 213 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F3 10 Tf 12 TL (Contr\364le qualit\351) Tj T* ET
+Q
+Q
+BT 1 0 0 1 0 200 Tm  T* ET
+q
+1 0 0 1 10 174 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.82 Tm /F1 10 Tf 12 TL 1.979318 Tw (Le contr\364le est une op\351ration destin\351e \340 d\351terminer, avec des moyens appropri\351s, si le produit \(y) Tj T* 0 Tw 2.243059 Tw (compris, services, documents, code source\) contr\364l\351 est conforme ou non \340 ses sp\351cifications ou) Tj T* 0 Tw (exigences pr\351\351tablies et incluant une d\351cision d'acceptation, de rejet ou de retouche.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 150 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL 1.755984 Tw (D\351finie dans ISO 9000 : \253 \351valuation de la conformit\351 par observation et jugement accompagn\351 si) Tj T* 0 Tw (n\351cessaire, de mesurage, d'essai ou de calibrage \273.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 138 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Un contr\364le est d\351fini par un certain nombre de param\350tres :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 132 cm
+Q
+q
+1 0 0 1 10 132 cm
+Q
+q
+1 0 0 1 10 114 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (La fr\351quence de contr\364le : syst\351matique, par pr\351l\350vement) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 114 cm
+Q
+q
+1 0 0 1 10 114 cm
+Q
+q
+1 0 0 1 10 96 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (La ou les caract\351ristiques du produit qui doivent \352tre contr\364l\351.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 96 cm
+Q
+q
+1 0 0 1 10 96 cm
+Q
+q
+1 0 0 1 10 78 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Le type de contr\364le : non-destructif, destructif \(parfois appel\351 \253 essai \273\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 78 cm
+Q
+q
+1 0 0 1 10 78 cm
+Q
+q
+1 0 0 1 10 48 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL .74248 Tw (La m\351thode de contr\364le : par mesure, par comparaison \(d\351fauth\350que\), par appr\351ciation \(contr\364le) Tj T* 0 Tw (visuel par exemple\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 48 cm
+Q
+q
+1 0 0 1 10 48 cm
+Q
+q
+1 0 0 1 10 30 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Les moyens de contr\364le \340 utiliser : appareil de mesure, r\351f\351rentiel) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 30 cm
+Q
+q
+1 0 0 1 10 30 cm
+Q
+q
+1 0 0 1 10 0 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL 2.152706 Tw (L'entit\351 qui r\351alise le contr\364le : personnel de fabrication \(autocontr\364le4\), personnel sp\351cialis\351,) Tj T* 0 Tw (personnel d'encadrement, machine \(automatisation du contr\364le\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 0 cm
+Q
+q
+1 0 0 1 10 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 123.0236 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 0 135 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F3 10 Tf 12 TL (Politique z\351ro) Tj T* ET
+Q
+Q
+BT 1 0 0 1 0 122 Tm  T* ET
+q
+1 0 0 1 10 120 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (La politique z\351ro est une mani\350re de travailler principalement utilis\351e dans les entreprises du Japon.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 108 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Elle est d\351finie par les principes suivants:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 102 cm
+Q
+q
+1 0 0 1 10 102 cm
+Q
+q
+1 0 0 1 10 84 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (z\351ro papier) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 84 cm
+Q
+q
+1 0 0 1 10 84 cm
+Q
+q
+1 0 0 1 10 66 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (z\351ro d\351faut) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 66 cm
+Q
+q
+1 0 0 1 10 66 cm
+Q
+q
+1 0 0 1 10 48 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (z\351ro gr\350ve) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 48 cm
+Q
+q
+1 0 0 1 10 48 cm
+Q
+q
+1 0 0 1 10 30 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (z\351ro stock) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 30 cm
+Q
+q
+1 0 0 1 10 30 cm
+Q
+q
+1 0 0 1 10 12 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (z\351ro panne) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 12 cm
+Q
+q
+1 0 0 1 10 12 cm
+Q
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Tout cela ayant pour but d'\351viter les gaspillages et les pertes financi\350res.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R14': class PDFStream 
+14 0 obj
+% page stream
+<< /Length 7936 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 663.0236 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 0 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F3 10 Tf 12 TL (Z\351ro D\351faut) Tj T* ET
+Q
+Q
+BT 1 0 0 1 0 74 Tm  T* ET
+q
+1 0 0 1 10 60 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL .082339 Tw (La th\351orie du z\351ro d\351faut est un concept d'efficacit\351 des entreprises qui s'inscrit dans la recherche de la) Tj T* 0 Tw (qualit\351 totale.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 52.82 Tm /F1 10 Tf 12 TL .49936 Tw (La th\351orie z\351ro d\351faut consiste, th\351oriquement, \340 r\351aliser une action, une unique fois, de la mani\350re la) Tj T* 0 Tw 3.091318 Tw (plus parfaite possible. Ceci dans le but de ne pas avoir \340 apporter des corrections ult\351rieures,) Tj T* 0 Tw 2.22748 Tw (synonymes de pertes d'efficatit\351. La satisfaction d'un client s'en trouve augment\351e. N\351anmoins, la) Tj T* 0 Tw .49936 Tw (quantit\351 de travail \340 fournir pour produire quelque chose de parfait du premier coup peut demander un) Tj T* 0 Tw (investissement non n\351gligeable.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 585.0236 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 0 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F3 10 Tf 12 TL (Qualit\351 totale) Tj T* ET
+Q
+Q
+BT 1 0 0 1 0 50 Tm  T* ET
+q
+1 0 0 1 10 12 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 40.82 Tm /F1 10 Tf 12 TL 2.015984 Tw (La qualit\351 totale \(Total Quality Management, TQM en anglais\) est une d\351marche de gestion de la) Tj T* 0 Tw .304269 Tw (qualit\351 dont l'objectif est l'obtention d'une tr\350s large mobilisation et implication de toute l'entreprise pour) Tj T* 0 Tw 3.788555 Tw (parvenir \340 une qualit\351 parfaite en r\351duisant au maximum les gaspillages et en am\351liorant en) Tj T* 0 Tw (permanence les \351l\351ments de sortie \(outputs\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Cette d\351marche repose sur ISO 9004, norme qui sert de document explicatif \340 la norme ISO 9001.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 507.0236 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 0 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F3 10 Tf 12 TL (Non qualit\351) Tj T* ET
+Q
+Q
+BT 1 0 0 1 0 50 Tm  T* ET
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 52.82 Tm /F1 10 Tf 12 TL 2.373735 Tw (La non qualit\351 se d\351finit dans le cadre d\222une d\351marche qualit\351. La non qualit\351 est constitu\351e de) Tj T* 0 Tw 1.513828 Tw (l\222ensemble des \351v\351nements g\351n\351rant un \351cart par rapport au processus propos\351 dans la d\351marche) Tj T* 0 Tw .64186 Tw (qualit\351. La mesure des co\373ts de non qualit\351 subis pour corriger l\222\351cart vis-\340-vis du processus cible est) Tj T* 0 Tw .174269 Tw (une m\351thode assez r\351pandue permettant l\222\351laboration de plans de progr\350s et la priorisation des actions) Tj T* 0 Tw (d\222am\351lioration.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 315.0236 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 0 177 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F3 10 Tf 12 TL (Am\351lioration de la qualit\351) Tj T* ET
+Q
+Q
+BT 1 0 0 1 0 164 Tm  T* ET
+q
+1 0 0 1 10 162 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (L'am\351lioration de la qualit\351 est le rapprochement de propri\351t\351 d'une chose d'une r\351f\351rence fix\351e.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 114 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 40.82 Tm /F1 10 Tf 12 TL .537984 Tw (L'am\351lioration de la qualit\351 est pour l'entreprise la cons\351quence du management de la qualit\351. Elle est) Tj T* 0 Tw .05248 Tw (d\351di\351e \340 l'accroissement de la capacit\351 \340 satisfaire certaines exigences de l'organisation. L'am\351lioration) Tj T* 0 Tw .459269 Tw (de la qualit\351 a comme cons\351quence l'am\351lioration des flexibilit\351s et synergies au sein de l'organisation) Tj T* 0 Tw (dont :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 108 cm
+Q
+q
+1 0 0 1 10 108 cm
+Q
+q
+1 0 0 1 10 78 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL .151984 Tw (La maintenabilit\351 : la capacit\351 \340 corriger et modifier simplement une structure, et m\352me, parfois, la) Tj T* 0 Tw (possibilit\351 de modifier celle-ci en cours d'utilisation.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 78 cm
+Q
+q
+1 0 0 1 10 78 cm
+Q
+q
+1 0 0 1 10 60 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (La mutualisation : la capacit\351 \340 identifier une fonction et \340 l'utiliser dans plusieurs contextes.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 60 cm
+Q
+q
+1 0 0 1 10 60 cm
+Q
+q
+1 0 0 1 10 18 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.82 Tm /F1 10 Tf 12 TL .26748 Tw (L'extensibilit\351 \(scalability\) : la capacit\351 \340 pouvoir \351voluer par un changement d'\351chelle, c'est-\340-dire) Tj T* 0 Tw 4.577674 Tw (de supporter des volumes plus importants de flux sans remettre en cause la structure) Tj T* 0 Tw (sous-jacente.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 18 cm
+Q
+q
+1 0 0 1 10 18 cm
+Q
+q
+1 0 0 1 10 0 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (La r\351silience : la capacit\351 \340 continuer de fonctionner en cas de panne.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 0 cm
+Q
+q
+1 0 0 1 10 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 189.0236 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 0 111 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F3 10 Tf 12 TL (Gestion de processus) Tj T* ET
+Q
+Q
+BT 1 0 0 1 0 98 Tm  T* ET
+q
+1 0 0 1 10 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.82 Tm /F1 10 Tf 12 TL 1.641647 Tw (La gestion de processus \(ou Process management, management par les processus\) repr\351sente les) Tj T* 0 Tw 2.551797 Tw (techniques d'organisation par la d\351composition en diff\351rents stades de r\351alisation d'une op\351ration) Tj T* 0 Tw (\351conomique.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.82 Tm /F1 10 Tf 12 TL .699398 Tw (La gestion de processus a pour but de d\351crire de mani\350re tr\350s pr\351cise le mode de fonctionnement de) Tj T* 0 Tw .26498 Tw (l'entreprise pour disposer d'une vision transversale de l'entreprise \(c'est-\340-dire au-del\340 des fonctions de) Tj T* 0 Tw (management ou de l'activit\351 dans son ensemble\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.82 Tm /F1 10 Tf 12 TL 1.588555 Tw (Le processus d\351taill\351 permet de conna\356tre clairement : - Le r\364le de chacun dans l'accomplissement) Tj T* 0 Tw 2.568735 Tw (d'une t\342che, - Le positionnement des acteurs les uns par rapport aux autres \(notion de clients /) Tj T* 0 Tw (fournisseurs internes\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 135.0236 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 0 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F3 10 Tf 12 TL (Audit qualit\351) Tj T* ET
+Q
+Q
+BT 1 0 0 1 0 26 Tm  T* ET
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.82 Tm /F1 10 Tf 12 TL 1.68061 Tw (ISO 19001 : \253 Examen p\351riodique et ind\351pendant en vue de d\351terminer si les activit\351s et r\351sultats) Tj T* 0 Tw 1.053984 Tw (relatifs \340 la qualit\351 satisfont aux dispositions pr\351\351tablies, si ces dispositions sont mises en oeuvre de) Tj T* 0 Tw (fa\347on efficace et si elles sont aptes \340 atteindre les objectifs \273.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R15': class PDFStream 
+15 0 obj
+% page stream
+<< /Length 9040 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 627.0236 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 0 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F3 10 Tf 12 TL (Processus) Tj T* ET
+Q
+Q
+BT 1 0 0 1 0 110 Tm  T* ET
+q
+1 0 0 1 10 96 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL 2.595814 Tw (Un processus est un ensemble d'activit\351s corr\351l\351es ou interactives qui transforment les \351l\351ments) Tj T* 0 Tw (d'entr\351e en \351l\351ments de sortie \(norme ISO 9001:2000\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 48 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 40.82 Tm /F1 10 Tf 12 TL 1.21561 Tw (Il ne faut pas confondre \253 processus \273 avec \253 proc\351dure \273 \(voir Proc\351dure d'entreprise\). Le premier) Tj T* 0 Tw 1.056412 Tw (d\351crit les activit\351s de l'entreprise selon une vision transversale par rapport \340 l'organisation de celle-ci) Tj T* 0 Tw .179982 Tw (tandis que le second explicite le "comment faire" dans cette organisation. L'approche processus permet) Tj T* 0 Tw (d'identifier et de ma\356triser les interfaces entre les diff\351rentes activit\351s.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Le processus r\351pond aux questions : QUOI FAIRE ? POUR QUELLE VALEUR AJOUTEE ? QUI ?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 24 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (La proc\351dure r\351pond aux questions : COMMENT FAIRE ? QUAND ?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 12 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Le mode op\351ratoire r\351pond de plus aux questions : OU ? SELON QUEL PROCEDE ?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Le mode pilotage r\351pond de plus \340 la question : COMBIEN ?) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 405.0236 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 0 207 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F3 10 Tf 12 TL (Roue de Deming) Tj T* ET
+Q
+Q
+BT 1 0 0 1 0 194 Tm  T* ET
+q
+1 0 0 1 10 180 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL 4.39061 Tw (La roue de Deming est une illustration de la m\351thode de gestion de la qualit\351 dite PDCA) Tj T* 0 Tw (\(Plan-Do-Check-Act\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 174 cm
+Q
+q
+1 0 0 1 10 174 cm
+Q
+q
+1 0 0 1 10 66 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 0 87 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F3 10 Tf 0 0 0 rg (Plan : ) Tj /F4 10 Tf (Pr\351parer, planifier \(ce que l'on va r\351aliser\)) Tj T* ET
+Q
+Q
+BT 1 0 0 1 0 74 Tm  T* ET
+q
+1 0 0 1 10 78 cm
+Q
+q
+1 0 0 1 10 78 cm
+Q
+q
+1 0 0 1 10 60 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Identification du probl\350me \(par exemple \340 l'aide du QQOQCCP\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 60 cm
+Q
+q
+1 0 0 1 10 60 cm
+Q
+q
+1 0 0 1 10 30 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL 2.286647 Tw (Recherche des causes racines \(par exemple \340 l'aide d'un diagramme de Pareto, d'un) Tj T* 0 Tw (diagramme d'Ishikawa ou de la m\351thode des 5 pourquoi\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 30 cm
+Q
+q
+1 0 0 1 10 30 cm
+Q
+q
+1 0 0 1 10 0 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL 3.750888 Tw (Recherche de solutions avec \351criture du cahier des charges et \351tablissement d'un) Tj T* 0 Tw (planning.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 0 cm
+Q
+q
+1 0 0 1 10 0 cm
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 66 cm
+Q
+q
+1 0 0 1 10 66 cm
+Q
+q
+1 0 0 1 10 48 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Do : D\351velopper, r\351aliser, mettre en \234uvre \(le plus souvent, on commence par une phase de test\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 48 cm
+Q
+q
+1 0 0 1 10 48 cm
+Q
+q
+1 0 0 1 10 30 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Check : Contr\364ler, v\351rifier. On utilise dans cette \351tape des indicateurs de performance.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 30 cm
+Q
+q
+1 0 0 1 10 30 cm
+Q
+q
+1 0 0 1 10 0 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL .044488 Tw (Act \(ou Adjust\): Agir, ajuster, r\351agir \(si on a test\351 \340 l'\351tape Do, on d\351ploie lors de la phase Act\). On) Tj T* 0 Tw (boucle, et on r\351injecte les am\351liorations dans la prochaine phase Plan.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 10 0 cm
+Q
+q
+1 0 0 1 10 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 231.0236 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 0 159 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F3 10 Tf 12 TL (Proc\351dure d'entreprise) Tj T* ET
+Q
+Q
+BT 1 0 0 1 0 146 Tm  T* ET
+q
+1 0 0 1 10 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 76.82 Tm /F1 10 Tf 12 TL 1.405984 Tw (La proc\351dure d\222entreprise, s'applique \340 une entreprise et correspond en fait \340 un processus, qui est) Tj T* 0 Tw 3.104147 Tw (transverse \340 l'entreprise \(concerne plusieurs entit\351s organisationnelles\). On ne traite en fait tr\350s) Tj T* 0 Tw .354983 Tw (souvent que des proc\351dures rattach\351es \340 une division op\351rationnelle de l'entreprise et on appelle alors) Tj T* 0 Tw .375433 Tw (cette proc\351dure proc\351dure m\351tier, processus m\351tier, proc\351dure op\351rationnelle ou, en anglais, business) Tj T* 0 Tw 1.089147 Tw (Process d\351signe \253 un ensemble d'activit\351s qui s'encha\356nent de mani\350re chronologique pour atteindre) Tj T* 0 Tw 1.863555 Tw (un objectif, g\351n\351ralement d\351livrer un produit ou un service, dans le contexte d'une organisation de) Tj T* 0 Tw (travail \(ex : une entreprise, administration,...\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.82 Tm /F1 10 Tf 12 TL 1.746412 Tw (La proc\351dure d\222entreprise repr\351sente la mani\350re de mettre en \234uvre tout ou partie d'un processus) Tj T* 0 Tw .907765 Tw (m\351tier. Le processus repr\351sente le Quoi ?, la proc\351dure repr\351sente le Qui fait Quoi ?, O\371 ? Quand ?) Tj T* 0 Tw (Comment ? Combien ? et Pourquoi \(QQOQCCP\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.82 Tm /F1 10 Tf 12 TL .474983 Tw (On voit donc qu'\340 un processus peuvent correspondre plusieurs proc\351dures : la proc\351dure existante et) Tj T* 0 Tw 1.719069 Tw (une ou plusieurs proc\351dures cibles \(exprimant des r\351partitions diff\351rentes d'activit\351s entre diff\351rents) Tj T* 0 Tw (services, des outils ou des ressources diff\351rents\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 93.02362 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 0 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F3 10 Tf 12 TL (Gestion de la qualit\351) Tj T* ET
+Q
+Q
+BT 1 0 0 1 0 110 Tm  T* ET
+q
+1 0 0 1 10 96 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL 2.02284 Tw (On nomme gestion de la qualit\351 les techniques d'organisation concourant \340 rendre conforme \340 un) Tj T* 0 Tw (standard la production de biens ou de services.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 88.82 Tm /F1 10 Tf 12 TL .207485 Tw (La notion de qualit\351 est subjective, mais peut se quantifier dans l'entreprise par une mise en conformit\351) Tj T* 0 Tw 2.444985 Tw (avec des standards \(ou, mieux encore, des normes\). La gestion de la qualit\351 est un concept de) Tj T* 0 Tw 1.840751 Tw (management dont l'objet est la gestion des flux mat\351riels \(nomm\351e aussi logistique\) et immat\351riels) Tj T* 0 Tw 3.284524 Tw (\(appel\351e management du syst\350me d'information\). Un service qualit\351, m\351thodes ou recherche et) Tj T* 0 Tw 2.58186 Tw (d\351veloppement peut donc ou non prendre ce nom. La gestion de la qualit\351, quelle que soit son) Tj T* 0 Tw 1.05811 Tw (appellation, concourt \340 g\351rer avec le personnel le capital immat\351riel au m\352me titre que le Service du) Tj T* 0 Tw 1.017984 Tw (personnel. La gestion de la qualit\351 rend des comptes au service marketing \(commercial\) car la vente) Tj T* 0 Tw (est sensible aux quantit\351s et \340 la qualit\351 produites.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R16': class PDFStream 
+16 0 obj
+% page stream
+<< /Length 1749 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 615.0236 cm
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 0 135 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F3 10 Tf 12 TL (D\351marche qualit\351) Tj T* ET
+Q
+Q
+BT 1 0 0 1 0 122 Tm  T* ET
+q
+1 0 0 1 10 84 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 40.82 Tm /F1 10 Tf 12 TL .853318 Tw (Une d\351marche qualit\351 est le processus mis en \234uvre pour implanter un syst\350me qualit\351 et s'engager) Tj T* 0 Tw .196412 Tw (dans une d\351marche d'am\351lioration continue. Le terme d\351signe aussi, de fa\347on figur\351e, les tentatives, la) Tj T* 0 Tw .592651 Tw (motivation et les approches en vue d'obtenir une certification et conserver le certificat, par exemple un) Tj T* 0 Tw (certificat ISO 9001.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 48 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.82 Tm /F1 10 Tf 12 TL 1.921976 Tw (Elle s'applique \340 tous types d'organisations, publiques, priv\351es, associatives, commerciales, partout) Tj T* 0 Tw .852485 Tw (dans le monde. Elle repose actuellement sur la Norme ISO 9001, dont la certification fait l'objet d'une) Tj T* 0 Tw (visite annuelle par un auditeur.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 40.82 Tm /F1 10 Tf 12 TL .720574 Tw (En ce qui concerne les logiciels utilis\351s par l'entreprise, on parle de qualim\351trie. Mise en place le plus) Tj T* 0 Tw 3.35498 Tw (souvent par les cellules qualit\351 et m\351thodes des directions informatiques des entreprises, cette) Tj T* 0 Tw .735697 Tw (discipline, comme toute d\351marche qualit\351, a pour objectif de d\351finir et d'atteindre le niveau d'exigence) Tj T* 0 Tw (requis pour maximiser la valeur cr\351\351e par le logiciel, et per\347u par ses utilisateurs.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R17': class PDFOutlines 
+17 0 obj
+<< /Count 0
+ /Type /Outlines >>
+endobj
+% 'R18': class PDFPageLabels 
+18 0 obj
+% Document Root
+<< /Nums [ 0
+ 19 0 R
+ 1
+ 20 0 R
+ 2
+ 21 0 R
+ 3
+ 22 0 R ] >>
+endobj
+% 'R19': class PDFPageLabel 
+19 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R20': class PDFPageLabel 
+20 0 obj
+% None
+<< /S /D
+ /St 2 >>
+endobj
+% 'R21': class PDFPageLabel 
+21 0 obj
+% None
+<< /S /D
+ /St 3 >>
+endobj
+% 'R22': class PDFPageLabel 
+22 0 obj
+% None
+<< /S /D
+ /St 4 >>
+endobj
+xref
+0 23
+0000000000 65535 f
+0000000113 00000 n
+0000000245 00000 n
+0000000410 00000 n
+0000000579 00000 n
+0000000752 00000 n
+0000001031 00000 n
+0000001312 00000 n
+0000001499 00000 n
+0000001778 00000 n
+0000002058 00000 n
+0000002217 00000 n
+0000002426 00000 n
+0000002557 00000 n
+0000012111 00000 n
+0000020148 00000 n
+0000029289 00000 n
+0000031141 00000 n
+0000031224 00000 n
+0000031356 00000 n
+0000031433 00000 n
+0000031510 00000 n
+0000031587 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(ho\310\226&1O*\255aum\216\354\331\357) (ho\310\226&1O*\255aum\216\354\331\357)] 
+
+ /Info 11 0 R
+ /Root 10 0 R
+ /Size 23 >>
+startxref
+31634
+%%EOF
